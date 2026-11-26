@@ -1,0 +1,896 @@
+[
+  {
+    "turkish": "yaşam",
+    "english": "life, living",
+    "persian": "زندگی، حیات",
+    "frequency_rank": 215
+  },
+  {
+    "turkish": "yaşam sevgisi",
+    "english": "love of life",
+    "persian": "عشق به زندگی",
+    "frequency_rank": 1790
+  },
+  {
+    "turkish": "yaşamak",
+    "english": "to live",
+    "persian": "زندگی کردن",
+    "frequency_rank": 45
+  },
+  {
+    "turkish": "yaşanmak",
+    "english": "to be lived, to take place",
+    "persian": "تجربه شدن، اتفاق افتادن، سپری شدن",
+    "frequency_rank": 565
+  },
+  {
+    "turkish": "yaşantı",
+    "english": "life experience, lifestyle",
+    "persian": "تجربه زندگی، زیست",
+    "frequency_rank": 1160
+  },
+  {
+    "turkish": "Yaşlanma Enstitüsü",
+    "english": "Institute of Aging",
+    "persian": "مؤسسه سالمندی",
+    "frequency_rank": 2460
+  },
+  {
+    "turkish": "yaşlanmak",
+    "english": "to grow old, to age",
+    "persian": "پیر شدن",
+    "frequency_rank": 735
+  },
+  {
+    "turkish": "yaşlı",
+    "english": "old, elderly",
+    "persian": "پیر، مسن",
+    "frequency_rank": 228
+  },
+  {
+    "turkish": "yatak",
+    "english": "bed, mattress",
+    "persian": "تخت، رختخواب",
+    "frequency_rank": 172
+  },
+  {
+    "turkish": "yatırımcı",
+    "english": "investor",
+    "persian": "سرمایه‌گذار",
+    "frequency_rank": 1170
+  },
+  {
+    "turkish": "yatkın",
+    "english": "inclined to, prone to, apt",
+    "persian": "مستعد، متمایل",
+    "frequency_rank": 1470
+  },
+  {
+    "turkish": "yatmak",
+    "english": "to lie down, to go to bed",
+    "persian": "دراز کشیدن، خوابیدن",
+    "frequency_rank": 198
+  },
+  {
+    "turkish": "yavaş",
+    "english": "slow, slowly",
+    "persian": "آهسته، یواش، کند",
+    "frequency_rank": 148
+  },
+  {
+    "turkish": "yavru",
+    "english": "baby animal, cub, chick",
+    "persian": "بچه حیوان، جوجه، توله",
+    "frequency_rank": 775
+  },
+  {
+    "turkish": "yavrucuk",
+    "english": "little baby, poor little thing",
+    "persian": "کوچولو، طفلکی",
+    "frequency_rank": 1840
+  },
+  {
+    "turkish": "yayılmak",
+    "english": "to spread, to be broadcast",
+    "persian": "پخش شدن، گسترش یافتن",
+    "frequency_rank": 765
+  },
+  {
+    "turkish": "yayımlamak",
+    "english": "to publish, to broadcast",
+    "persian": "منتشر کردن، پخش کردن",
+    "frequency_rank": 955
+  },
+  {
+    "turkish": "yayın",
+    "english": "broadcast, publication",
+    "persian": "پخش، نشر، انتشارات",
+    "frequency_rank": 625
+  },
+  {
+    "turkish": "yayla",
+    "english": "plateau, highland pasture",
+    "persian": "ییلاق، فلات",
+    "frequency_rank": 1140
+  },
+  {
+    "turkish": "yayvan",
+    "english": "flat and wide, shallow",
+    "persian": "پهن و کم‌عمق",
+    "frequency_rank": 1870
+  },
+  {
+    "turkish": "yaz",
+    "english": "summer",
+    "persian": "تابستان",
+    "frequency_rank": 168
+  },
+  {
+    "turkish": "yazar",
+    "english": "writer, author",
+    "persian": "نویسنده",
+    "frequency_rank": 358
+  },
+  {
+    "turkish": "yazı",
+    "english": "writing, text, article",
+    "persian": "نوشته، متن، مقاله",
+    "frequency_rank": 298
+  },
+  {
+    "turkish": "yazık",
+    "english": "pity, shame",
+    "persian": "حیف، افسوس",
+    "frequency_rank": 425
+  },
+  {
+    "turkish": "yazılmak",
+    "english": "to be written, to enroll",
+    "persian": "نوشته شدن، ثبت‌نام کردن",
+    "frequency_rank": 755
+  },
+  {
+    "turkish": "yazmak",
+    "english": "to write",
+    "persian": "نوشتن",
+    "frequency_rank": 68
+  },
+  {
+    "turkish": "yedi",
+    "english": "seven",
+    "persian": "هفت",
+    "frequency_rank": 112
+  },
+  {
+    "turkish": "yedinci",
+    "english": "seventh",
+    "persian": "هفتم",
+    "frequency_rank": 700
+  },
+  {
+    "turkish": "yeğen",
+    "english": "nephew, niece",
+    "persian": "خواهرزاده، برادرزاده",
+    "frequency_rank": 815
+  },
+  {
+    "turkish": "yemek",
+    "english": "food, meal, to eat",
+    "persian": "غذا، خوردن",
+    "frequency_rank": 22
+  },
+  {
+    "turkish": "yemek yapmak",
+    "english": "to cook",
+    "persian": "غذا پختن، آشپزی کردن",
+    "frequency_rank": 252
+  },
+  {
+    "turkish": "yemyeşil",
+    "english": "lush green, bright green",
+    "persian": "سرسبز، سبزِ سبز",
+    "frequency_rank": 1035
+  },
+  {
+    "turkish": "yenge",
+    "english": "sister-in-law, aunt (uncle's wife)",
+    "persian": "زن‌عمو، زن‌دایی، زن‌داداش",
+    "frequency_rank": 805
+  },
+  {
+    "turkish": "yeni",
+    "english": "new",
+    "persian": "نو، جدید",
+    "frequency_rank": 28
+  },
+  {
+    "turkish": "yenmek",
+    "english": "to be eaten, to be defeated",
+    "persian": "خورده شدن، شکست خوردن",
+    "frequency_rank": 1130
+  },
+  {
+    "turkish": "yepyeni",
+    "english": "brand new",
+    "persian": "نوِ نو، کاملاً تازه",
+    "frequency_rank": 798
+  },
+  {
+    "turkish": "yer",
+    "english": "place, ground, floor, seat",
+    "persian": "جا، مکان، زمین",
+    "frequency_rank": 25
+  },
+  {
+    "turkish": "yer almak",
+    "english": "to take place, to be included",
+    "persian": "جای گرفتن، حضور داشتن",
+    "frequency_rank": 575
+  },
+  {
+    "turkish": "yer fıstığı",
+    "english": "peanut",
+    "persian": "بادام‌زمینی",
+    "frequency_rank": 1300
+  },
+  {
+    "turkish": "yerine koymak",
+    "english": "to put back, to put in place of",
+    "persian": "سر جایش گذاشتن، جایگزین کردن",
+    "frequency_rank": 1230
+  },
+  {
+    "turkish": "yerleşim",
+    "english": "settlement, layout",
+    "persian": "سکونتگاه، استقرار، چیدمان",
+    "frequency_rank": 1355
+  },
+  {
+    "turkish": "yerleşim yeri",
+    "english": "settlement, residential area",
+    "persian": "محل سکونت، سکونتگاه",
+    "frequency_rank": 1530
+  },
+  {
+    "turkish": "yerleşke",
+    "english": "campus",
+    "persian": "پردیس، محوطه دانشگاه",
+    "frequency_rank": 1630
+  },
+  {
+    "turkish": "yerleşmek",
+    "english": "to settle down, to move in",
+    "persian": "ساکن شدن، جا افتادن",
+    "frequency_rank": 612
+  },
+  {
+    "turkish": "yerleştirmek",
+    "english": "to place, to arrange, to settle",
+    "persian": "جا دادن، چیدن، مستقر کردن",
+    "frequency_rank": 592
+  },
+  {
+    "turkish": "yerli",
+    "english": "local, native, domestic",
+    "persian": "محلی، بومی، داخلی",
+    "frequency_rank": 542
+  },
+  {
+    "turkish": "yeşil",
+    "english": "green",
+    "persian": "سبز",
+    "frequency_rank": 178
+  },
+  {
+    "turkish": "yeşillik",
+    "english": "greenery, greens (herbs/vegetables)",
+    "persian": "سرسبزی، سبزیجات",
+    "frequency_rank": 875
+  },
+  {
+    "turkish": "yetenek",
+    "english": "talent, ability",
+    "persian": "استعداد، توانایی",
+    "frequency_rank": 518
+  },
+  {
+    "turkish": "yeterince",
+    "english": "enough, sufficiently",
+    "persian": "به اندازه کافی",
+    "frequency_rank": 462
+  },
+  {
+    "turkish": "yeterli",
+    "english": "sufficient, enough",
+    "persian": "کافی",
+    "frequency_rank": 382
+  },
+  {
+    "turkish": "yetişmek",
+    "english": "to catch up, to grow up, to be ready in time",
+    "persian": "رسیدن، بزرگ شدن، به موقع رسیدن",
+    "frequency_rank": 488
+  },
+  {
+    "turkish": "yetiştirmek",
+    "english": "to raise, to grow, to deliver on time",
+    "persian": "پرورش دادن، بزرگ کردن، به موقع رساندن",
+    "frequency_rank": 502
+  },
+  {
+    "turkish": "yetkili",
+    "english": "authorized, official, authority",
+    "persian": "مسئول، مقام، مجاز",
+    "frequency_rank": 682
+  },
+  {
+    "turkish": "yetmek",
+    "english": "to be enough, to suffice",
+    "persian": "کافی بودن، بس بودن",
+    "frequency_rank": 292
+  },
+  {
+    "turkish": "yetmiş",
+    "english": "seventy",
+    "persian": "هفتاد",
+    "frequency_rank": 505
+  },
+  {
+    "turkish": "yıkamak",
+    "english": "to wash",
+    "persian": "شستن",
+    "frequency_rank": 272
+  },
+  {
+    "turkish": "yıkanmak",
+    "english": "to be washed, to bathe",
+    "persian": "شسته شدن، حمام کردن",
+    "frequency_rank": 742
+  },
+  {
+    "turkish": "yıl",
+    "english": "year",
+    "persian": "سال",
+    "frequency_rank": 30
+  },
+  {
+    "turkish": "yıllarca",
+    "english": "for years",
+    "persian": "سال‌ها، سالیان دراز",
+    "frequency_rank": 552
+  },
+  {
+    "turkish": "yırtıcı",
+    "english": "predatory, ferocious",
+    "persian": "درنده، شکاری",
+    "frequency_rank": 1415
+  },
+  {
+    "turkish": "yiğit",
+    "english": "brave, valiant",
+    "persian": "دلیر، شجاع، جوانمرد",
+    "frequency_rank": 1345
+  },
+  {
+    "turkish": "yine",
+    "english": "again",
+    "persian": "باز هم، دوباره",
+    "frequency_rank": 75
+  },
+  {
+    "turkish": "yirmi",
+    "english": "twenty",
+    "persian": "بیست",
+    "frequency_rank": 142
+  },
+  {
+    "turkish": "yirmi bir",
+    "english": "twenty-one",
+    "persian": "بیست و یک",
+    "frequency_rank": 602
+  },
+  {
+    "turkish": "yiyecek",
+    "english": "food, something to eat",
+    "persian": "خوراکی، غذا",
+    "frequency_rank": 302
+  },
+  {
+    "turkish": "yoğun",
+    "english": "dense, intense, busy",
+    "persian": "متراکم، شدید، شلوغ",
+    "frequency_rank": 372
+  },
+  {
+    "turkish": "yoğun bakım",
+    "english": "intensive care (ICU)",
+    "persian": "بخش مراقبت‌های ویژه",
+    "frequency_rank": 1465
+  },
+  {
+    "turkish": "yok",
+    "english": "non-existent, absent, no",
+    "persian": "نیست، وجود ندارد، نه",
+    "frequency_rank": 14
+  },
+  {
+    "turkish": "yok etmek",
+    "english": "to destroy, to eliminate",
+    "persian": "نابود کردن، از بین بردن",
+    "frequency_rank": 835
+  },
+  {
+    "turkish": "yol",
+    "english": "road, way, path",
+    "persian": "راه، جاده، مسیر",
+    "frequency_rank": 80
+  },
+  {
+    "turkish": "yola çıkmak",
+    "english": "to set off, to hit the road",
+    "persian": "راه افتادن، عازم شدن",
+    "frequency_rank": 492
+  },
+  {
+    "turkish": "yolcu",
+    "english": "passenger, traveler",
+    "persian": "مسافر",
+    "frequency_rank": 342
+  },
+  {
+    "turkish": "yolculuk",
+    "english": "journey, trip",
+    "persian": "سفر، مسافرت",
+    "frequency_rank": 288
+  },
+  {
+    "turkish": "yolculuk yapmak",
+    "english": "to travel, to take a trip",
+    "persian": "سفر کردن، مسافرت رفتن",
+    "frequency_rank": 642
+  },
+  {
+    "turkish": "yoldaş",
+    "english": "companion, comrade",
+    "persian": "هم‌سفر، همراه، رفیق",
+    "frequency_rank": 1295
+  },
+  {
+    "turkish": "yorgan",
+    "english": "quilt, duvet",
+    "persian": "لحاف",
+    "frequency_rank": 1145
+  },
+  {
+    "turkish": "yorucu",
+    "english": "tiring, exhausting",
+    "persian": "خسته‌کننده",
+    "frequency_rank": 662
+  },
+  {
+    "turkish": "yorulmak",
+    "english": "to get tired",
+    "persian": "خسته شدن",
+    "frequency_rank": 218
+  },
+  {
+    "turkish": "yorum",
+    "english": "comment, interpretation",
+    "persian": "نظر، دیدگاه، تفسیر",
+    "frequency_rank": 332
+  },
+  {
+    "turkish": "yorumlamak",
+    "english": "to comment on, to interpret",
+    "persian": "تفسیر کردن، تحلیل کردن",
+    "frequency_rank": 905
+  },
+  {
+    "turkish": "yön",
+    "english": "direction, aspect",
+    "persian": "جهت، سو، جنبه",
+    "frequency_rank": 392
+  },
+  {
+    "turkish": "yönetmek",
+    "english": "to manage, to direct, to govern",
+    "persian": "مدیریت کردن، اداره کردن، کارگردانی کردن",
+    "frequency_rank": 482
+  },
+  {
+    "turkish": "yönetmen",
+    "english": "director (film or theater)",
+    "persian": "کارگردان",
+    "frequency_rank": 725
+  },
+  {
+    "turkish": "yöre",
+    "english": "region, area, district",
+    "persian": "منطقه، ناحیه، دیار",
+    "frequency_rank": 1075
+  },
+  {
+    "turkish": "yöresel",
+    "english": "regional, local",
+    "persian": "محلی، منطقه‌ای",
+    "frequency_rank": 975
+  },
+  {
+    "turkish": "yufka",
+    "english": "thin pastry dough, phyllo",
+    "persian": "خمیر یوفکا، نان لواش نازک",
+    "frequency_rank": 1190
+  },
+  {
+    "turkish": "yukarı",
+    "english": "up, upward, upstairs",
+    "persian": "بالا، به سمت بالا",
+    "frequency_rank": 162
+  },
+  {
+    "turkish": "yulaf",
+    "english": "oats",
+    "persian": "جو دوسر",
+    "frequency_rank": 1315
+  },
+  {
+    "turkish": "yummak",
+    "english": "to close (eyes or fist)",
+    "persian": "بستن (چشم یا دست)",
+    "frequency_rank": 1485
+  },
+  {
+    "turkish": "yumuk yumuk",
+    "english": "chubby, plump (hands or cheeks)",
+    "persian": "تپل و بامزه",
+    "frequency_rank": 1970
+  },
+  {
+    "turkish": "yumurta",
+    "english": "egg",
+    "persian": "تخم‌مرغ",
+    "frequency_rank": 182
+  },
+  {
+    "turkish": "yumuşak",
+    "english": "soft",
+    "persian": "نرم",
+    "frequency_rank": 362
+  },
+  {
+    "turkish": "yurt",
+    "english": "homeland, dormitory",
+    "persian": "میهن، خوابگاه",
+    "frequency_rank": 352
+  },
+  {
+    "turkish": "yurt dışı",
+    "english": "abroad, foreign countries",
+    "persian": "خارج از کشور",
+    "frequency_rank": 408
+  },
+  {
+    "turkish": "yurt içi",
+    "english": "domestic, inside the country",
+    "persian": "داخل کشور",
+    "frequency_rank": 845
+  },
+  {
+    "turkish": "yutmak",
+    "english": "to swallow",
+    "persian": "قورت دادن، بلعیدن",
+    "frequency_rank": 885
+  },
+  {
+    "turkish": "yuva",
+    "english": "nest, home, kindergarten",
+    "persian": "لانه، آشیانه، مهدکودک",
+    "frequency_rank": 692
+  },
+  {
+    "turkish": "yük",
+    "english": "load, cargo, burden",
+    "persian": "بار، محموله",
+    "frequency_rank": 548
+  },
+  {
+    "turkish": "yüklemek",
+    "english": "to load, to upload, to install",
+    "persian": "بار زدن، بارگذاری کردن، نصب کردن",
+    "frequency_rank": 442
+  },
+  {
+    "turkish": "yüklü",
+    "english": "loaded, heavy, substantial",
+    "persian": "پربار، سنگین، زیاد",
+    "frequency_rank": 1155
+  },
+  {
+    "turkish": "yüksek",
+    "english": "high, tall, loud",
+    "persian": "بلند، بالا، زیاد",
+    "frequency_rank": 138
+  },
+  {
+    "turkish": "yüksek lisans",
+    "english": "master's degree",
+    "persian": "کارشناسی ارشد",
+    "frequency_rank": 852
+  },
+  {
+    "turkish": "yükselmek",
+    "english": "to rise, to go up",
+    "persian": "بالا رفتن، صعود کردن",
+    "frequency_rank": 508
+  },
+  {
+    "turkish": "yün",
+    "english": "wool",
+    "persian": "پشم",
+    "frequency_rank": 1065
+  },
+  {
+    "turkish": "yünlü",
+    "english": "woolen",
+    "persian": "پشمی",
+    "frequency_rank": 1495
+  },
+  {
+    "turkish": "yürümek",
+    "english": "to walk",
+    "persian": "راه رفتن، پیاده‌روی کردن",
+    "frequency_rank": 144
+  },
+  {
+    "turkish": "yürüyüş",
+    "english": "walk, walking, march",
+    "persian": "پیاده‌روی، راهپیمایی",
+    "frequency_rank": 432
+  },
+  {
+    "turkish": "yüz",
+    "english": "face, hundred, surface",
+    "persian": "صورت، صد، رو",
+    "frequency_rank": 62
+  },
+  {
+    "turkish": "yüz üstü bırakmak",
+    "english": "to leave in the lurch, to abandon",
+    "persian": "تنها گذاشتن، به حال خود رها کردن",
+    "frequency_rank": 1645
+  },
+  {
+    "turkish": "yüzde",
+    "english": "percent",
+    "persian": "درصد",
+    "frequency_rank": 278
+  },
+  {
+    "turkish": "yüzde yüz",
+    "english": "one hundred percent, completely",
+    "persian": "صددرصد، کاملاً",
+    "frequency_rank": 748
+  },
+  {
+    "turkish": "yüzgeç",
+    "english": "fin (of a fish)",
+    "persian": "باله ماهی",
+    "frequency_rank": 1695
+  },
+  {
+    "turkish": "yüzlerce",
+    "english": "hundreds of",
+    "persian": "صدها",
+    "frequency_rank": 632
+  },
+  {
+    "turkish": "yüzmek",
+    "english": "to swim, to float",
+    "persian": "شنا کردن",
+    "frequency_rank": 318
+  },
+  {
+    "turkish": "yüzyıl",
+    "english": "century",
+    "persian": "قرن، سده",
+    "frequency_rank": 498
+  },
+  {
+    "turkish": "zahmet",
+    "english": "trouble, effort, bother",
+    "persian": "زحمت، دردسر",
+    "frequency_rank": 812
+  },
+  {
+    "turkish": "zalim",
+    "english": "cruel, tyrant",
+    "persian": "ظالم، ستمگر",
+    "frequency_rank": 1245
+  },
+  {
+    "turkish": "zaman",
+    "english": "time",
+    "persian": "زمان، وقت",
+    "frequency_rank": 16
+  },
+  {
+    "turkish": "zannetmek",
+    "english": "to think, to suppose",
+    "persian": "گمان کردن، خیال کردن",
+    "frequency_rank": 412
+  },
+  {
+    "turkish": "zarar",
+    "english": "harm, damage, loss",
+    "persian": "ضرر، زیان، آسیب",
+    "frequency_rank": 402
+  },
+  {
+    "turkish": "zarar görmek",
+    "english": "to suffer harm, to be damaged",
+    "persian": "آسیب دیدن، زیان دیدن",
+    "frequency_rank": 892
+  },
+  {
+    "turkish": "zarar vermek",
+    "english": "to harm, to damage",
+    "persian": "آسیب رساندن، ضرر زدن",
+    "frequency_rank": 672
+  },
+  {
+    "turkish": "zararlı",
+    "english": "harmful",
+    "persian": "مضر، زیان‌آور",
+    "frequency_rank": 572
+  },
+  {
+    "turkish": "zaten",
+    "english": "anyway, already",
+    "persian": "اصلاً، همین‌طور هم، از قبل",
+    "frequency_rank": 92
+  },
+  {
+    "turkish": "zayıf",
+    "english": "thin, weak, slim",
+    "persian": "لاغر، ضعیف",
+    "frequency_rank": 296
+  },
+  {
+    "turkish": "zehirlemek",
+    "english": "to poison",
+    "persian": "مسموم کردن",
+    "frequency_rank": 1385
+  },
+  {
+    "turkish": "zehirli",
+    "english": "poisonous, toxic",
+    "persian": "سمی، زهرآگین",
+    "frequency_rank": 1025
+  },
+  {
+    "turkish": "zeki",
+    "english": "smart, intelligent",
+    "persian": "باهوش، زیرک",
+    "frequency_rank": 388
+  },
+  {
+    "turkish": "zekice",
+    "english": "cleverly, smartly",
+    "persian": "هوشمندانه، زیرکانه",
+    "frequency_rank": 1325
+  },
+  {
+    "turkish": "zengin",
+    "english": "rich, wealthy",
+    "persian": "ثروتمند، پولدار، غنی",
+    "frequency_rank": 248
+  },
+  {
+    "turkish": "zenginlik",
+    "english": "wealth, richness",
+    "persian": "ثروت، غنا",
+    "frequency_rank": 862
+  },
+  {
+    "turkish": "zevk",
+    "english": "pleasure, taste, enjoyment",
+    "persian": "لذت، ذوق، سلیقه",
+    "frequency_rank": 468
+  },
+  {
+    "turkish": "zevk vermek",
+    "english": "to give pleasure, to be enjoyable",
+    "persian": "لذت‌بخش بودن، کیف دادن",
+    "frequency_rank": 1275
+  },
+  {
+    "turkish": "zevkli",
+    "english": "enjoyable, tasteful",
+    "persian": "لذت‌بخش، خوش‌سلیقه",
+    "frequency_rank": 712
+  },
+  {
+    "turkish": "zeytin",
+    "english": "olive",
+    "persian": "زیتون",
+    "frequency_rank": 348
+  },
+  {
+    "turkish": "zıplamak",
+    "english": "to jump, to bounce",
+    "persian": "پریدن، بالا و پایین پریدن",
+    "frequency_rank": 762
+  },
+  {
+    "turkish": "zil",
+    "english": "bell, doorbell",
+    "persian": "زنگ",
+    "frequency_rank": 582
+  },
+  {
+    "turkish": "zincirleme",
+    "english": "chain (reaction), consecutive",
+    "persian": "زنجیره‌ای، پیاپی",
+    "frequency_rank": 1605
+  },
+  {
+    "turkish": "zirve",
+    "english": "peak, summit",
+    "persian": "قله، اوج",
+    "frequency_rank": 818
+  },
+  {
+    "turkish": "ziyaret",
+    "english": "visit",
+    "persian": "دیدار، بازدید، زیارت",
+    "frequency_rank": 378
+  },
+  {
+    "turkish": "ziyaret etmek",
+    "english": "to visit",
+    "persian": "دیدار کردن، سر زدن، بازدید کردن",
+    "frequency_rank": 312
+  },
+  {
+    "turkish": "zor",
+    "english": "difficult, hard",
+    "persian": "سخت، دشوار",
+    "frequency_rank": 78
+  },
+  {
+    "turkish": "zor etmek",
+    "english": "to force, to make difficult",
+    "persian": "سخت گرفتن، مجبور کردن",
+    "frequency_rank": 1930
+  },
+  {
+    "turkish": "zoraki",
+    "english": "forced, reluctant",
+    "persian": "اجباری، به زور",
+    "frequency_rank": 1435
+  },
+  {
+    "turkish": "zorlanmak",
+    "english": "to have difficulty, to struggle",
+    "persian": "به زحمت افتادن، سختی کشیدن",
+    "frequency_rank": 722
+  },
+  {
+    "turkish": "zorlayıcı",
+    "english": "challenging, compelling, forcing",
+    "persian": "چالش‌برانگیز، اجباری، دشوار",
+    "frequency_rank": 1405
+  },
+  {
+    "turkish": "zorlu",
+    "english": "tough, arduous, challenging",
+    "persian": "سخت، دشوار، پرچالش",
+    "frequency_rank": 915
+  },
+  {
+    "turkish": "zorunda kalmak",
+    "english": "to have to, to be forced to",
+    "persian": "مجبور شدن، ناچار شدن",
+    "frequency_rank": 338
+  }
+]

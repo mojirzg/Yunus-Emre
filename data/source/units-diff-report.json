@@ -1,0 +1,66 @@
+{
+  "Ünite 1": {
+    "added": [],
+    "removed": []
+  },
+  "Ünite 2": {
+    "added": [
+      "akıntı",
+      "gözlükçü",
+      "işyeri"
+    ],
+    "removed": [
+      "gözlüklü",
+      "iş yeri"
+    ]
+  },
+  "Ünite 3": {
+    "added": [
+      "ayak",
+      "aydınlatmak",
+      "İlaç",
+      "nazik",
+      "ne"
+    ],
+    "removed": [
+      "ilaç"
+    ]
+  },
+  "Ünite 4": {
+    "added": [
+      "hoşuna gitmek"
+    ],
+    "removed": [
+      "hoşa gitmek"
+    ]
+  },
+  "Ünite 5": {
+    "added": [],
+    "removed": []
+  },
+  "Ünite 6": {
+    "added": [
+      "bilmak"
+    ],
+    "removed": [
+      "bilmek"
+    ]
+  },
+  "Ünite 7": {
+    "added": [],
+    "removed": []
+  },
+  "Ünite 8": {
+    "added": [
+      "düzenlenmek",
+      "Everest Dağı",
+      "kuyruklu a",
+      "yaşlılık"
+    ],
+    "removed": [
+      "düzenlemek",
+      "gerek",
+      "kuyruklu"
+    ]
+  }
+}

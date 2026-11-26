@@ -1,0 +1,1502 @@
+[
+  {
+    "turkish": "ilk yardım",
+    "english": "first aid",
+    "persian": "کمک‌های اولیه",
+    "frequency_rank": 1250
+  },
+  {
+    "turkish": "ilkokul",
+    "english": "primary school",
+    "persian": "دبستان",
+    "frequency_rank": 480
+  },
+  {
+    "turkish": "ilkokul öğretmeni",
+    "english": "primary school teacher",
+    "persian": "معلم دبستان",
+    "frequency_rank": 1350
+  },
+  {
+    "turkish": "imza atmak",
+    "english": "to sign",
+    "persian": "امضا کردن",
+    "frequency_rank": 680
+  },
+  {
+    "turkish": "inanılmaz",
+    "english": "unbelievable, incredible",
+    "persian": "باورنکردنی",
+    "frequency_rank": 450
+  },
+  {
+    "turkish": "inanmak",
+    "english": "to believe",
+    "persian": "باور کردن",
+    "frequency_rank": 220
+  },
+  {
+    "turkish": "ince",
+    "english": "thin, slim, fine",
+    "persian": "نازک، باریک",
+    "frequency_rank": 340
+  },
+  {
+    "turkish": "incelemek",
+    "english": "to examine, inspect",
+    "persian": "بررسی کردن",
+    "frequency_rank": 520
+  },
+  {
+    "turkish": "inci",
+    "english": "pearl",
+    "persian": "مروارید",
+    "frequency_rank": 1300
+  },
+  {
+    "turkish": "incir",
+    "english": "fig",
+    "persian": "انجیر",
+    "frequency_rank": 950
+  },
+  {
+    "turkish": "indirim",
+    "english": "discount",
+    "persian": "تخفیف",
+    "frequency_rank": 390
+  },
+  {
+    "turkish": "indirim yapmak",
+    "english": "to give a discount",
+    "persian": "تخفیف دادن",
+    "frequency_rank": 900
+  },
+  {
+    "turkish": "inek",
+    "english": "cow",
+    "persian": "گاو",
+    "frequency_rank": 620
+  },
+  {
+    "turkish": "inmek",
+    "english": "to get off, go down",
+    "persian": "پیاده شدن، پایین آمدن",
+    "frequency_rank": 240
+  },
+  {
+    "turkish": "insan",
+    "english": "human, person, people",
+    "persian": "انسان، آدم",
+    "frequency_rank": 45
+  },
+  {
+    "turkish": "insan kaynakları",
+    "english": "human resources",
+    "persian": "منابع انسانی",
+    "frequency_rank": 1450
+  },
+  {
+    "turkish": "insanca",
+    "english": "humanely",
+    "persian": "انسان‌وار، به شکل انسانی",
+    "frequency_rank": 1650
+  },
+  {
+    "turkish": "insanlık",
+    "english": "humanity, mankind",
+    "persian": "انسانیت، بشریت",
+    "frequency_rank": 720
+  },
+  {
+    "turkish": "inşallah",
+    "english": "hopefully, God willing",
+    "persian": "ان‌شاءالله، به امید خدا",
+    "frequency_rank": 150
+  },
+  {
+    "turkish": "internet",
+    "english": "internet",
+    "persian": "اینترنت",
+    "frequency_rank": 180
+  },
+  {
+    "turkish": "internet kullanmak",
+    "english": "to use the internet",
+    "persian": "استفاده از اینترنت",
+    "frequency_rank": 850
+  },
+  {
+    "turkish": "ip",
+    "english": "rope, string, thread",
+    "persian": "طناب، نخ",
+    "frequency_rank": 640
+  },
+  {
+    "turkish": "ipek",
+    "english": "silk",
+    "persian": "ابریشم",
+    "frequency_rank": 1050
+  },
+  {
+    "turkish": "ipekli kumaş",
+    "english": "silk fabric",
+    "persian": "پارچه ابریشمی",
+    "frequency_rank": 1950
+  },
+  {
+    "turkish": "İran",
+    "english": "Iran",
+    "persian": "ایران",
+    "frequency_rank": 2150
+  },
+  {
+    "turkish": "irice",
+    "english": "rather large, largish",
+    "persian": "نسبتاً درشت",
+    "frequency_rank": 1850
+  },
+  {
+    "turkish": "isim",
+    "english": "name",
+    "persian": "اسم، نام",
+    "frequency_rank": 110
+  },
+  {
+    "turkish": "isimli",
+    "english": "named, called",
+    "persian": "به نامِ",
+    "frequency_rank": 980
+  },
+  {
+    "turkish": "İstanbul",
+    "english": "Istanbul",
+    "persian": "استانبول",
+    "frequency_rank": 2120
+  },
+  {
+    "turkish": "istek",
+    "english": "wish, desire, request",
+    "persian": "خواسته، درخواست",
+    "frequency_rank": 540
+  },
+  {
+    "turkish": "istemek",
+    "english": "to want",
+    "persian": "خواستن",
+    "frequency_rank": 25
+  },
+  {
+    "turkish": "iş",
+    "english": "work, job, business",
+    "persian": "کار، شغل",
+    "frequency_rank": 35
+  },
+  {
+    "turkish": "iş adamı",
+    "english": "businessman",
+    "persian": "تاجر، مرد کسب‌وکار",
+    "frequency_rank": 1150
+  },
+  {
+    "turkish": "iş başvurusu",
+    "english": "job application",
+    "persian": "درخواست کار",
+    "frequency_rank": 1300
+  },
+  {
+    "turkish": "iş çıkışı",
+    "english": "end of workday, after work",
+    "persian": "پایان ساعت کاری، وقت تعطیلی کار",
+    "frequency_rank": 1400
+  },
+  {
+    "turkish": "iş görüşmesi",
+    "english": "job interview",
+    "persian": "مصاحبه شغلی",
+    "frequency_rank": 1280
+  },
+  {
+    "turkish": "iş güç",
+    "english": "work and daily affairs",
+    "persian": "کار و بار",
+    "frequency_rank": 1320
+  },
+  {
+    "turkish": "iş hayatı",
+    "english": "working life, career",
+    "persian": "زندگی کاری",
+    "frequency_rank": 1220
+  },
+  {
+    "turkish": "iş ilanı",
+    "english": "job posting",
+    "persian": "آگهی استخدام",
+    "frequency_rank": 1360
+  },
+  {
+    "turkish": "iş işten geçmek",
+    "english": "to be too late",
+    "persian": "کار از کار گذشتن",
+    "frequency_rank": 1550
+  },
+  {
+    "turkish": "iş kadını",
+    "english": "businesswoman",
+    "persian": "زن شاغل، بانوی کسب‌وکار",
+    "frequency_rank": 1420
+  },
+  {
+    "turkish": "iş yemeği",
+    "english": "business meal",
+    "persian": "ناهار یا شام کاری",
+    "frequency_rank": 1480
+  },
+  {
+    "turkish": "iş yeri",
+    "english": "workplace",
+    "persian": "محل کار",
+    "frequency_rank": 560
+  },
+  {
+    "turkish": "işaretlemek",
+    "english": "to mark, tick",
+    "persian": "علامت زدن",
+    "frequency_rank": 880
+  },
+  {
+    "turkish": "işitmek",
+    "english": "to hear",
+    "persian": "شنیدن",
+    "frequency_rank": 740
+  },
+  {
+    "turkish": "işlem",
+    "english": "process, operation, transaction",
+    "persian": "عملیات، فرآیند",
+    "frequency_rank": 690
+  },
+  {
+    "turkish": "işlemek",
+    "english": "to process, commit, embroider",
+    "persian": "پردازش کردن، مرتکب شدن، گلدوزی کردن",
+    "frequency_rank": 780
+  },
+  {
+    "turkish": "İşletme Fakültesi",
+    "english": "Faculty of Business Administration",
+    "persian": "دانشکده مدیریت بازرگانی",
+    "frequency_rank": 2350
+  },
+  {
+    "turkish": "iştahsızlık",
+    "english": "loss of appetite",
+    "persian": "بی‌اشتهایی",
+    "frequency_rank": 1750
+  },
+  {
+    "turkish": "işte",
+    "english": "here it is, well, you see",
+    "persian": "همین، بفرمایید، خب",
+    "frequency_rank": 95
+  },
+  {
+    "turkish": "itfaiye",
+    "english": "fire department",
+    "persian": "آتش‌نشانی",
+    "frequency_rank": 920
+  },
+  {
+    "turkish": "itibaren",
+    "english": "starting from, as of",
+    "persian": "از این پس، به بعد",
+    "frequency_rank": 590
+  },
+  {
+    "turkish": "iyi",
+    "english": "good, well",
+    "persian": "خوب",
+    "frequency_rank": 20
+  },
+  {
+    "turkish": "iyi niyetli",
+    "english": "well-intentioned",
+    "persian": "خوش‌نیت، خیرخواه",
+    "frequency_rank": 1240
+  },
+  {
+    "turkish": "iyice",
+    "english": "thoroughly, well",
+    "persian": "کاملاً، خوب",
+    "frequency_rank": 660
+  },
+  {
+    "turkish": "izin",
+    "english": "permission, leave",
+    "persian": "اجازه، مرخصی",
+    "frequency_rank": 310
+  },
+  {
+    "turkish": "izin vermek",
+    "english": "to allow, permit",
+    "persian": "اجازه دادن",
+    "frequency_rank": 420
+  },
+  {
+    "turkish": "izlemek",
+    "english": "to watch, follow",
+    "persian": "تماشا کردن، دنبال کردن",
+    "frequency_rank": 170
+  },
+  {
+    "turkish": "izleyici",
+    "english": "viewer, spectator",
+    "persian": "تماشاگر، بیننده",
+    "frequency_rank": 760
+  },
+  {
+    "turkish": "Japonya",
+    "english": "Japan",
+    "persian": "ژاپن",
+    "frequency_rank": 2160
+  },
+  {
+    "turkish": "kabak çiçeği dolması",
+    "english": "stuffed zucchini blossoms",
+    "persian": "دلمه گل کدو",
+    "frequency_rank": 2380
+  },
+  {
+    "turkish": "kabakulak",
+    "english": "mumps",
+    "persian": "اوریون",
+    "frequency_rank": 2050
+  },
+  {
+    "turkish": "kabare",
+    "english": "cabaret",
+    "persian": "کاباره",
+    "frequency_rank": 2080
+  },
+  {
+    "turkish": "kabartma",
+    "english": "relief, embossing",
+    "persian": "برجسته، نقش برجسته",
+    "frequency_rank": 1880
+  },
+  {
+    "turkish": "kabir",
+    "english": "grave, tomb",
+    "persian": "قبر، مزار",
+    "frequency_rank": 1720
+  },
+  {
+    "turkish": "kablo",
+    "english": "cable, wire",
+    "persian": "کابل، سیم",
+    "frequency_rank": 680
+  },
+  {
+    "turkish": "kabuk",
+    "english": "peel, shell, crust",
+    "persian": "پوست، پوسته",
+    "frequency_rank": 840
+  },
+  {
+    "turkish": "kabul",
+    "english": "acceptance, admission",
+    "persian": "پذیرش، قبول",
+    "frequency_rank": 510
+  },
+  {
+    "turkish": "kabul edilmek",
+    "english": "to be accepted",
+    "persian": "پذیرفته شدن",
+    "frequency_rank": 890
+  },
+  {
+    "turkish": "kabul etmek",
+    "english": "to accept",
+    "persian": "قبول کردن، پذیرفتن",
+    "frequency_rank": 260
+  },
+  {
+    "turkish": "kaç",
+    "english": "how many, how much",
+    "persian": "چند",
+    "frequency_rank": 55
+  },
+  {
+    "turkish": "kaçırmak",
+    "english": "to miss, kidnap, let escape",
+    "persian": "از دست دادن، ربودن",
+    "frequency_rank": 470
+  },
+  {
+    "turkish": "kaçmak",
+    "english": "to run away, escape",
+    "persian": "فرار کردن",
+    "frequency_rank": 320
+  },
+  {
+    "turkish": "kadar",
+    "english": "until, as much as, about",
+    "persian": "تا، به اندازه، حدود",
+    "frequency_rank": 30
+  },
+  {
+    "turkish": "kadayıf",
+    "english": "kadayif (shredded pastry dessert)",
+    "persian": "کادایف (شیرینی سنتی ترکی)",
+    "frequency_rank": 1820
+  },
+  {
+    "turkish": "kadın",
+    "english": "woman",
+    "persian": "زن، خانم",
+    "frequency_rank": 85
+  },
+  {
+    "turkish": "kadro",
+    "english": "staff, squad, lineup",
+    "persian": "کادر، ترکیب تیم",
+    "frequency_rank": 960
+  },
+  {
+    "turkish": "kafa",
+    "english": "head, mind",
+    "persian": "سر، کله",
+    "frequency_rank": 230
+  },
+  {
+    "turkish": "kafes",
+    "english": "cage",
+    "persian": "قفس",
+    "frequency_rank": 1120
+  },
+  {
+    "turkish": "kâğıt",
+    "english": "paper",
+    "persian": "کاغذ",
+    "frequency_rank": 330
+  },
+  {
+    "turkish": "kahraman",
+    "english": "hero",
+    "persian": "قهرمان",
+    "frequency_rank": 730
+  },
+  {
+    "turkish": "kahvaltı",
+    "english": "breakfast",
+    "persian": "صبحانه",
+    "frequency_rank": 210
+  },
+  {
+    "turkish": "kahvaltı yapmak",
+    "english": "to have breakfast",
+    "persian": "صبحانه خوردن",
+    "frequency_rank": 490
+  },
+  {
+    "turkish": "kahve",
+    "english": "coffee",
+    "persian": "قهوه",
+    "frequency_rank": 160
+  },
+  {
+    "turkish": "kahvehane",
+    "english": "traditional coffeehouse",
+    "persian": "قهوه‌خانه",
+    "frequency_rank": 1460
+  },
+  {
+    "turkish": "kahverengi",
+    "english": "brown",
+    "persian": "قهوه‌ای",
+    "frequency_rank": 460
+  },
+  {
+    "turkish": "kalabalık",
+    "english": "crowd, crowded",
+    "persian": "شلوغ، جمعیت",
+    "frequency_rank": 370
+  },
+  {
+    "turkish": "kaldırılmak",
+    "english": "to be lifted, removed",
+    "persian": "برداشته شدن، لغو شدن",
+    "frequency_rank": 1040
+  },
+  {
+    "turkish": "kaldırım",
+    "english": "sidewalk, pavement",
+    "persian": "پیاده‌رو",
+    "frequency_rank": 790
+  },
+  {
+    "turkish": "kaldırmak",
+    "english": "to lift, raise, remove",
+    "persian": "بلند کردن، برداشتن",
+    "frequency_rank": 290
+  },
+  {
+    "turkish": "kaleci",
+    "english": "goalkeeper",
+    "persian": "دروازه‌بان",
+    "frequency_rank": 1080
+  },
+  {
+    "turkish": "kalecilik",
+    "english": "goalkeeping",
+    "persian": "دروازه‌بانی",
+    "frequency_rank": 1980
+  },
+  {
+    "turkish": "kalem",
+    "english": "pen, pencil",
+    "persian": "قلم، خودکار، مداد",
+    "frequency_rank": 250
+  },
+  {
+    "turkish": "kalın",
+    "english": "thick",
+    "persian": "ضخیم، کلفت",
+    "frequency_rank": 530
+  },
+  {
+    "turkish": "kalkmak",
+    "english": "to get up, stand up, depart",
+    "persian": "بلند شدن، برخاستن",
+    "frequency_rank": 140
+  },
+  {
+    "turkish": "kalmak",
+    "english": "to stay, remain",
+    "persian": "ماندن",
+    "frequency_rank": 50
+  },
+  {
+    "turkish": "kalori",
+    "english": "calorie",
+    "persian": "کالری",
+    "frequency_rank": 1140
+  },
+  {
+    "turkish": "kamera",
+    "english": "camera",
+    "persian": "دوربین",
+    "frequency_rank": 550
+  },
+  {
+    "turkish": "kan dökmek",
+    "english": "to shed blood",
+    "persian": "خون ریختن",
+    "frequency_rank": 1680
+  },
+  {
+    "turkish": "kan merkezi",
+    "english": "blood center, blood bank",
+    "persian": "مرکز انتقال خون",
+    "frequency_rank": 1960
+  },
+  {
+    "turkish": "kan ter içinde kalmak",
+    "english": "to be drenched in sweat from effort",
+    "persian": "خیس عرق شدن، بسیار خسته شدن",
+    "frequency_rank": 1860
+  },
+  {
+    "turkish": "kanat",
+    "english": "wing",
+    "persian": "بال",
+    "frequency_rank": 860
+  },
+  {
+    "turkish": "kanepe",
+    "english": "sofa, couch",
+    "persian": "مبل، کاناپه",
+    "frequency_rank": 750
+  },
+  {
+    "turkish": "kapalı tutmak",
+    "english": "to keep closed",
+    "persian": "بسته نگه داشتن",
+    "frequency_rank": 1580
+  },
+  {
+    "turkish": "kapasite",
+    "english": "capacity",
+    "persian": "ظرفیت",
+    "frequency_rank": 940
+  },
+  {
+    "turkish": "kapatmak",
+    "english": "to close, turn off",
+    "persian": "بستن، خاموش کردن",
+    "frequency_rank": 190
+  },
+  {
+    "turkish": "kapı",
+    "english": "door, gate",
+    "persian": "در",
+    "frequency_rank": 105
+  },
+  {
+    "turkish": "kaplamak",
+    "english": "to cover, coat",
+    "persian": "پوشاندن، روکش کردن",
+    "frequency_rank": 1020
+  },
+  {
+    "turkish": "kaplan",
+    "english": "tiger",
+    "persian": "ببر",
+    "frequency_rank": 1180
+  },
+  {
+    "turkish": "kapmak",
+    "english": "to snatch, catch",
+    "persian": "قاپیدن، گرفتن",
+    "frequency_rank": 830
+  },
+  {
+    "turkish": "kapsam",
+    "english": "scope, coverage",
+    "persian": "دامنه، شمول",
+    "frequency_rank": 1260
+  },
+  {
+    "turkish": "kar",
+    "english": "snow",
+    "persian": "برف",
+    "frequency_rank": 350
+  },
+  {
+    "turkish": "kâr",
+    "english": "profit",
+    "persian": "سود",
+    "frequency_rank": 770
+  },
+  {
+    "turkish": "kara",
+    "english": "black, dark, land",
+    "persian": "سیاه، تیره، خشکی",
+    "frequency_rank": 440
+  },
+  {
+    "turkish": "karakalem",
+    "english": "charcoal or pencil sketch",
+    "persian": "طراحی سیاه‌قلم",
+    "frequency_rank": 1920
+  },
+  {
+    "turkish": "karakter",
+    "english": "character",
+    "persian": "شخصیت",
+    "frequency_rank": 580
+  },
+  {
+    "turkish": "karanlık",
+    "english": "dark, darkness",
+    "persian": "تاریک، تاریکی",
+    "frequency_rank": 430
+  },
+  {
+    "turkish": "karar",
+    "english": "decision",
+    "persian": "تصمیم",
+    "frequency_rank": 280
+  },
+  {
+    "turkish": "karar almak",
+    "english": "to make a decision",
+    "persian": "تصمیم گرفتن",
+    "frequency_rank": 820
+  },
+  {
+    "turkish": "karar vermek",
+    "english": "to decide",
+    "persian": "تصمیم گرفتن",
+    "frequency_rank": 270
+  },
+  {
+    "turkish": "kararmak",
+    "english": "to get dark, darken",
+    "persian": "تاریک شدن، تیره شدن",
+    "frequency_rank": 1060
+  },
+  {
+    "turkish": "kardeş",
+    "english": "sibling, brother or sister",
+    "persian": "خواهر یا برادر",
+    "frequency_rank": 120
+  },
+  {
+    "turkish": "kare",
+    "english": "square",
+    "persian": "مربع",
+    "frequency_rank": 870
+  },
+  {
+    "turkish": "karga",
+    "english": "crow",
+    "persian": "کلاغ",
+    "frequency_rank": 1290
+  },
+  {
+    "turkish": "karı",
+    "english": "wife",
+    "persian": "زن، همسر",
+    "frequency_rank": 650
+  },
+  {
+    "turkish": "karın",
+    "english": "belly, abdomen",
+    "persian": "شکم",
+    "frequency_rank": 610
+  },
+  {
+    "turkish": "karınca",
+    "english": "ant",
+    "persian": "مورچه",
+    "frequency_rank": 1160
+  },
+  {
+    "turkish": "karışık",
+    "english": "mixed, complicated",
+    "persian": "مخلوط، پیچیده",
+    "frequency_rank": 485
+  },
+  {
+    "turkish": "karışım",
+    "english": "mixture",
+    "persian": "مخلوط، ترکیب",
+    "frequency_rank": 1130
+  },
+  {
+    "turkish": "karışmak",
+    "english": "to get mixed, interfere",
+    "persian": "قاطی شدن، دخالت کردن",
+    "frequency_rank": 495
+  },
+  {
+    "turkish": "karıştırmak",
+    "english": "to mix, stir, confuse",
+    "persian": "هم زدن، مخلوط کردن، اشتباه گرفتن",
+    "frequency_rank": 410
+  },
+  {
+    "turkish": "kariyer yapmak",
+    "english": "to build a career",
+    "persian": "پیشرفت شغلی داشتن",
+    "frequency_rank": 1440
+  },
+  {
+    "turkish": "karmaşık",
+    "english": "complex, complicated",
+    "persian": "پیچیده",
+    "frequency_rank": 810
+  },
+  {
+    "turkish": "karpuz",
+    "english": "watermelon",
+    "persian": "هندوانه",
+    "frequency_rank": 630
+  },
+  {
+    "turkish": "karşı",
+    "english": "opposite, against, towards",
+    "persian": "روبه‌رو، مقابل، برضد",
+    "frequency_rank": 165
+  },
+  {
+    "turkish": "kartal",
+    "english": "eagle",
+    "persian": "عقاب",
+    "frequency_rank": 1190
+  },
+  {
+    "turkish": "kasa",
+    "english": "safe, cash register, crate",
+    "persian": "صندوق، گاوصندوق، جعبه",
+    "frequency_rank": 710
+  },
+  {
+    "turkish": "kasaba",
+    "english": "small town",
+    "persian": "شهرک، قصبه",
+    "frequency_rank": 990
+  },
+  {
+    "turkish": "kase",
+    "english": "bowl",
+    "persian": "کاسه",
+    "frequency_rank": 800
+  },
+  {
+    "turkish": "kaşık",
+    "english": "spoon",
+    "persian": "قاشق",
+    "frequency_rank": 455
+  },
+  {
+    "turkish": "kaşıntı",
+    "english": "itch, itching",
+    "persian": "خارش",
+    "frequency_rank": 1520
+  },
+  {
+    "turkish": "kat",
+    "english": "floor, story, layer",
+    "persian": "طبقه، لایه، برابر",
+    "frequency_rank": 295
+  },
+  {
+    "turkish": "katı",
+    "english": "solid, hard, strict",
+    "persian": "جامد، سفت، سخت‌گیرانه",
+    "frequency_rank": 895
+  },
+  {
+    "turkish": "katılmak",
+    "english": "to join, participate, agree",
+    "persian": "شرکت کردن، پیوستن، موافق بودن",
+    "frequency_rank": 345
+  },
+  {
+    "turkish": "katkı",
+    "english": "contribution",
+    "persian": "سهم، کمک، مشارکت",
+    "frequency_rank": 930
+  },
+  {
+    "turkish": "kavga etmek",
+    "english": "to fight, argue",
+    "persian": "دعوا کردن",
+    "frequency_rank": 670
+  },
+  {
+    "turkish": "kavşak",
+    "english": "intersection, junction",
+    "persian": "تقاطع، چهارراه",
+    "frequency_rank": 1170
+  },
+  {
+    "turkish": "kavuk",
+    "english": "quilted Ottoman turban",
+    "persian": "دستار عثمانی",
+    "frequency_rank": 2320
+  },
+  {
+    "turkish": "kavun",
+    "english": "melon",
+    "persian": "خربزه، طالبی",
+    "frequency_rank": 855
+  },
+  {
+    "turkish": "kavurmak",
+    "english": "to roast, sauté",
+    "persian": "تفت دادن، سرخ کردن",
+    "frequency_rank": 1155
+  },
+  {
+    "turkish": "kavuşmak",
+    "english": "to reunite, attain",
+    "persian": "به هم رسیدن، وصال یافتن",
+    "frequency_rank": 970
+  },
+  {
+    "turkish": "kaybetmek",
+    "english": "to lose",
+    "persian": "گم کردن، از دست دادن، باختن",
+    "frequency_rank": 245
+  },
+  {
+    "turkish": "kaybettirmek",
+    "english": "to cause to lose",
+    "persian": "باعث از دست دادن یا باختن شدن",
+    "frequency_rank": 1540
+  },
+  {
+    "turkish": "kaybolmak",
+    "english": "to get lost, disappear",
+    "persian": "گم شدن، ناپدید شدن",
+    "frequency_rank": 435
+  },
+  {
+    "turkish": "kaygı",
+    "english": "anxiety, worry",
+    "persian": "نگرانی، اضطراب",
+    "frequency_rank": 910
+  },
+  {
+    "turkish": "kaygılanmak",
+    "english": "to worry, feel anxious",
+    "persian": "نگران شدن",
+    "frequency_rank": 1490
+  },
+  {
+    "turkish": "kaygılı",
+    "english": "anxious, worried",
+    "persian": "نگران، مضطرب",
+    "frequency_rank": 1270
+  },
+  {
+    "turkish": "kayıp",
+    "english": "lost, missing, loss",
+    "persian": "گمشده، مفقود، خسارت",
+    "frequency_rank": 645
+  },
+  {
+    "turkish": "kayısı",
+    "english": "apricot",
+    "persian": "زردآلو",
+    "frequency_rank": 1090
+  },
+  {
+    "turkish": "kayıtlı",
+    "english": "registered, recorded",
+    "persian": "ثبت‌شده",
+    "frequency_rank": 1230
+  },
+  {
+    "turkish": "kaymaklı",
+    "english": "with clotted cream",
+    "persian": "سرشیردار، با سرشیر",
+    "frequency_rank": 1790
+  },
+  {
+    "turkish": "kaynak",
+    "english": "source, resource, welding",
+    "persian": "منبع، سرچشمه، جوشکاری",
+    "frequency_rank": 525
+  },
+  {
+    "turkish": "kaynamak",
+    "english": "to boil",
+    "persian": "جوشیدن",
+    "frequency_rank": 745
+  },
+  {
+    "turkish": "kaza",
+    "english": "accident",
+    "persian": "تصادف، حادثه",
+    "frequency_rank": 415
+  },
+  {
+    "turkish": "kaza geçirmek",
+    "english": "to have an accident",
+    "persian": "تصادف کردن، دچار حادثه شدن",
+    "frequency_rank": 1185
+  },
+  {
+    "turkish": "kazak",
+    "english": "sweater, pullover",
+    "persian": "پلیور، ژاکت",
+    "frequency_rank": 675
+  },
+  {
+    "turkish": "kazan",
+    "english": "cauldron, boiler",
+    "persian": "دیگ بزرگ",
+    "frequency_rank": 1255
+  },
+  {
+    "turkish": "kazandırmak",
+    "english": "to earn for someone, instill",
+    "persian": "به دست آوردن برای کسی، بخشیدن",
+    "frequency_rank": 1125
+  },
+  {
+    "turkish": "kazanmak",
+    "english": "to win, earn",
+    "persian": "برنده شدن، به دست آوردن",
+    "frequency_rank": 185
+  },
+  {
+    "turkish": "kedi",
+    "english": "cat",
+    "persian": "گربه",
+    "frequency_rank": 275
+  },
+  {
+    "turkish": "kedili",
+    "english": "with a cat, cat-patterned",
+    "persian": "گربه‌دار، طرح گربه",
+    "frequency_rank": 2020
+  },
+  {
+    "turkish": "kek",
+    "english": "cake",
+    "persian": "کیک",
+    "frequency_rank": 515
+  },
+  {
+    "turkish": "kekik",
+    "english": "thyme, oregano",
+    "persian": "آویشن",
+    "frequency_rank": 1310
+  },
+  {
+    "turkish": "kelebek",
+    "english": "butterfly",
+    "persian": "پروانه",
+    "frequency_rank": 955
+  },
+  {
+    "turkish": "kelime",
+    "english": "word",
+    "persian": "کلمه، واژه",
+    "frequency_rank": 315
+  },
+  {
+    "turkish": "keman",
+    "english": "violin",
+    "persian": "ویولن",
+    "frequency_rank": 1265
+  },
+  {
+    "turkish": "kemer",
+    "english": "belt, arch",
+    "persian": "کمربند، طاق",
+    "frequency_rank": 695
+  },
+  {
+    "turkish": "kendi",
+    "english": "self, own",
+    "persian": "خود",
+    "frequency_rank": 40
+  },
+  {
+    "turkish": "kepçe",
+    "english": "ladle, scoop",
+    "persian": "ملاقه",
+    "frequency_rank": 1340
+  },
+  {
+    "turkish": "kese",
+    "english": "pouch, bath mitt",
+    "persian": "کیسه، کیسه حمام",
+    "frequency_rank": 1470
+  },
+  {
+    "turkish": "kesilmek",
+    "english": "to be cut, stop",
+    "persian": "بریده شدن، قطع شدن",
+    "frequency_rank": 655
+  },
+  {
+    "turkish": "kesinlik",
+    "english": "certainty",
+    "persian": "قطعیت",
+    "frequency_rank": 1430
+  },
+  {
+    "turkish": "kesişmek",
+    "english": "to intersect",
+    "persian": "تقاطع داشتن، به هم رسیدن",
+    "frequency_rank": 1740
+  },
+  {
+    "turkish": "kesit",
+    "english": "cross-section, excerpt",
+    "persian": "برش، مقطع",
+    "frequency_rank": 1640
+  },
+  {
+    "turkish": "kesmek",
+    "english": "to cut",
+    "persian": "بریدن، قطع کردن",
+    "frequency_rank": 235
+  },
+  {
+    "turkish": "kestane",
+    "english": "chestnut",
+    "persian": "شاه‌بلوط",
+    "frequency_rank": 1210
+  },
+  {
+    "turkish": "kestaneli",
+    "english": "with chestnuts",
+    "persian": "شاه‌بلوط‌دار",
+    "frequency_rank": 2040
+  },
+  {
+    "turkish": "keşfetmek",
+    "english": "to discover, explore",
+    "persian": "کشف کردن",
+    "frequency_rank": 570
+  },
+  {
+    "turkish": "kez",
+    "english": "time (occurrence)",
+    "persian": "بار، دفعه",
+    "frequency_rank": 225
+  },
+  {
+    "turkish": "kılavuzu",
+    "english": "its guide",
+    "persian": "راهنمای آن",
+    "frequency_rank": 1770
+  },
+  {
+    "turkish": "kıpkırmızı",
+    "english": "bright red, crimson",
+    "persian": "سرخِ سرخ، کاملاً قرمز",
+    "frequency_rank": 1380
+  },
+  {
+    "turkish": "kırgın",
+    "english": "hurt, offended",
+    "persian": "دلخور، رنجیده",
+    "frequency_rank": 1010
+  },
+  {
+    "turkish": "kırık",
+    "english": "broken, fracture",
+    "persian": "شکسته، شکستگی",
+    "frequency_rank": 585
+  },
+  {
+    "turkish": "kırılgan",
+    "english": "fragile, sensitive",
+    "persian": "شکننده، حساس",
+    "frequency_rank": 1330
+  },
+  {
+    "turkish": "kırışıklık",
+    "english": "wrinkle",
+    "persian": "چین‌وچروک",
+    "frequency_rank": 1510
+  },
+  {
+    "turkish": "kırk",
+    "english": "forty",
+    "persian": "چهل",
+    "frequency_rank": 380
+  },
+  {
+    "turkish": "kırlangıç",
+    "english": "swallow (bird)",
+    "persian": "پرستو",
+    "frequency_rank": 1690
+  },
+  {
+    "turkish": "kırmak",
+    "english": "to break",
+    "persian": "شکستن",
+    "frequency_rank": 360
+  },
+  {
+    "turkish": "kırmızı",
+    "english": "red",
+    "persian": "قرمز، سرخ",
+    "frequency_rank": 175
+  },
+  {
+    "turkish": "kısa",
+    "english": "short",
+    "persian": "کوتاه",
+    "frequency_rank": 155
+  },
+  {
+    "turkish": "kısa vade",
+    "english": "short term",
+    "persian": "کوتاه‌مدت",
+    "frequency_rank": 1560
+  },
+  {
+    "turkish": "kısaca",
+    "english": "briefly, in short",
+    "persian": "به طور خلاصه",
+    "frequency_rank": 595
+  },
+  {
+    "turkish": "kısaltma",
+    "english": "abbreviation, shortening",
+    "persian": "مخفف، کوتاه‌سازی",
+    "frequency_rank": 1410
+  },
+  {
+    "turkish": "kısaltmak",
+    "english": "to shorten",
+    "persian": "کوتاه کردن",
+    "frequency_rank": 1070
+  },
+  {
+    "turkish": "kısım",
+    "english": "part, section",
+    "persian": "بخش، قسمت",
+    "frequency_rank": 475
+  },
+  {
+    "turkish": "kıskanmak",
+    "english": "to be jealous, envy",
+    "persian": "حسادت کردن",
+    "frequency_rank": 845
+  },
+  {
+    "turkish": "kış",
+    "english": "winter",
+    "persian": "زمستان",
+    "frequency_rank": 265
+  },
+  {
+    "turkish": "kıta",
+    "english": "continent, stanza",
+    "persian": "قاره، بند شعر",
+    "frequency_rank": 1055
+  },
+  {
+    "turkish": "kıtır kıtır",
+    "english": "crunchy, crispy",
+    "persian": "ترد و برشته",
+    "frequency_rank": 1760
+  },
+  {
+    "turkish": "kıvam",
+    "english": "consistency, texture",
+    "persian": "قوام، غلظت",
+    "frequency_rank": 1390
+  },
+  {
+    "turkish": "kıvırcık",
+    "english": "curly",
+    "persian": "فر، مجعد",
+    "frequency_rank": 1110
+  },
+  {
+    "turkish": "kıyafet",
+    "english": "clothing, outfit",
+    "persian": "لباس، پوشاک",
+    "frequency_rank": 365
+  },
+  {
+    "turkish": "kıyı",
+    "english": "shore, coast",
+    "persian": "ساحل، کرانه",
+    "frequency_rank": 705
+  },
+  {
+    "turkish": "kıyma",
+    "english": "minced meat, ground meat",
+    "persian": "گوشت چرخ‌کرده",
+    "frequency_rank": 735
+  },
+  {
+    "turkish": "kıymet",
+    "english": "value, worth",
+    "persian": "ارزش، قدر",
+    "frequency_rank": 865
+  },
+  {
+    "turkish": "kız",
+    "english": "girl, daughter",
+    "persian": "دختر",
+    "frequency_rank": 65
+  },
+  {
+    "turkish": "kızamık",
+    "english": "measles",
+    "persian": "سرخک",
+    "frequency_rank": 2010
+  },
+  {
+    "turkish": "kızarıklık",
+    "english": "redness, rash",
+    "persian": "قرمزی، سرخی",
+    "frequency_rank": 1670
+  },
+  {
+    "turkish": "kızarmış",
+    "english": "fried, roasted, toasted",
+    "persian": "سرخ‌شده، برشته",
+    "frequency_rank": 875
+  },
+  {
+    "turkish": "kızıl",
+    "english": "crimson, reddish",
+    "persian": "سرخ، متمایل به قرمز",
+    "frequency_rank": 1165
+  },
+  {
+    "turkish": "Kızılay",
+    "english": "Turkish Red Crescent",
+    "persian": "هلال احمر ترکیه",
+    "frequency_rank": 2220
+  },
+  {
+    "turkish": "kilo",
+    "english": "kilogram, weight",
+    "persian": "کیلو، وزن",
+    "frequency_rank": 285
+  },
+  {
+    "turkish": "kilometre",
+    "english": "kilometer",
+    "persian": "کیلومتر",
+    "frequency_rank": 425
+  },
+  {
+    "turkish": "kim",
+    "english": "who",
+    "persian": "چه کسی، کی",
+    "frequency_rank": 48
+  },
+  {
+    "turkish": "kimlik",
+    "english": "identity, ID",
+    "persian": "هویت، کارت شناسایی",
+    "frequency_rank": 545
+  },
+  {
+    "turkish": "kimlik bilgileri",
+    "english": "identity details",
+    "persian": "مشخصات هویتی",
+    "frequency_rank": 1610
+  },
+  {
+    "turkish": "kimlik kartı",
+    "english": "ID card",
+    "persian": "کارت شناسایی، کارت ملی",
+    "frequency_rank": 1145
+  },
+  {
+    "turkish": "kimse",
+    "english": "anyone, nobody, someone",
+    "persian": "کسی، هیچ‌کس",
+    "frequency_rank": 115
+  },
+  {
+    "turkish": "kimyasal madde",
+    "english": "chemical substance",
+    "persian": "ماده شیمیایی",
+    "frequency_rank": 1630
+  },
+  {
+    "turkish": "kira",
+    "english": "rent",
+    "persian": "اجاره",
+    "frequency_rank": 445
+  },
+  {
+    "turkish": "kiralık",
+    "english": "for rent",
+    "persian": "اجاره‌ای",
+    "frequency_rank": 815
+  },
+  {
+    "turkish": "kiraz",
+    "english": "cherry",
+    "persian": "گیلاس",
+    "frequency_rank": 915
+  },
+  {
+    "turkish": "kirlenmek",
+    "english": "to get dirty",
+    "persian": "کثیف شدن",
+    "frequency_rank": 985
+  },
+  {
+    "turkish": "kirletmek",
+    "english": "to make dirty, pollute",
+    "persian": "کثیف کردن، آلوده کردن",
+    "frequency_rank": 935
+  },
+  {
+    "turkish": "kirli",
+    "english": "dirty",
+    "persian": "کثیف",
+    "frequency_rank": 535
+  },
+  {
+    "turkish": "kişi",
+    "english": "person",
+    "persian": "نفر، شخص",
+    "frequency_rank": 70
+  },
+  {
+    "turkish": "kişi başı",
+    "english": "per person",
+    "persian": "نفری، سرانه",
+    "frequency_rank": 1275
+  },
+  {
+    "turkish": "kişilik",
+    "english": "personality, capacity for people",
+    "persian": "شخصیت، ظرفیت نفره",
+    "frequency_rank": 605
+  },
+  {
+    "turkish": "kişisel",
+    "english": "personal",
+    "persian": "شخصی",
+    "frequency_rank": 615
+  },
+  {
+    "turkish": "kitap",
+    "english": "book",
+    "persian": "کتاب",
+    "frequency_rank": 100
+  },
+  {
+    "turkish": "kitapçık",
+    "english": "booklet",
+    "persian": "دفترچه، کتابچه",
+    "frequency_rank": 1570
+  },
+  {
+    "turkish": "kitaplık",
+    "english": "bookcase, bookshelf",
+    "persian": "قفسه کتاب",
+    "frequency_rank": 945
+  },
+  {
+    "turkish": "kivi",
+    "english": "kiwi",
+    "persian": "کیوی",
+    "frequency_rank": 1195
+  },
+  {
+    "turkish": "klasik",
+    "english": "classic, classical",
+    "persian": "کلاسیک",
+    "frequency_rank": 685
+  },
+  {
+    "turkish": "klima",
+    "english": "air conditioner",
+    "persian": "کولر گازی، تهویه مطبوع",
+    "frequency_rank": 725
+  },
+  {
+    "turkish": "kocaman",
+    "english": "huge, enormous",
+    "persian": "خیلی بزرگ، غول‌پیکر",
+    "frequency_rank": 465
+  },
+  {
+    "turkish": "koku",
+    "english": "smell, scent, odor",
+    "persian": "بو، عطر",
+    "frequency_rank": 405
+  },
+  {
+    "turkish": "kol",
+    "english": "arm, sleeve, handle",
+    "persian": "بازو، دست، آستین، دسته",
+    "frequency_rank": 240
+  },
+  {
+    "turkish": "kol saati",
+    "english": "wristwatch",
+    "persian": "ساعت مچی",
+    "frequency_rank": 1105
+  },
+  {
+    "turkish": "kolay",
+    "english": "easy",
+    "persian": "آسان، راحت",
+    "frequency_rank": 130
+  }
+]
