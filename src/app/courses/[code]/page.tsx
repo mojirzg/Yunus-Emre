@@ -4,6 +4,7 @@ import { Layers, List } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { createClient } from "@/lib/supabase/server";
 import { getCourseDetailWithProgress } from "@/lib/supabase/queries";
+import { getHeaderUser } from "@/lib/supabase/user-profile";
 
 export const dynamic = "force-dynamic";
 
@@ -39,6 +40,7 @@ export default async function CourseDetailPage({
         subtitle={`${course.learnedWords} / ${course.totalWords} words learned`}
         backHref="/courses"
         backLabel="Back to courses"
+        user={getHeaderUser(user)}
       />
 
       <main className="mx-auto w-full max-w-2xl space-y-5 px-4 py-5 pb-safe">

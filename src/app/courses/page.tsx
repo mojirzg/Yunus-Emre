@@ -4,6 +4,7 @@ import { BookOpen, ChevronRight } from "lucide-react";
 import { AppHeader } from "@/components/AppHeader";
 import { createClient } from "@/lib/supabase/server";
 import { getCoursesWithProgress } from "@/lib/supabase/queries";
+import { getHeaderUser } from "@/lib/supabase/user-profile";
 
 export const dynamic = "force-dynamic";
 
@@ -21,7 +22,11 @@ export default async function CoursesPage() {
 
   return (
     <div className="min-h-dvh bg-stone-50">
-      <AppHeader title="Courses" subtitle="Yedi İklim Türkçe" />
+      <AppHeader
+        title="Courses"
+        subtitle="Yedi İklim Türkçe"
+        user={getHeaderUser(user)}
+      />
 
       <main className="mx-auto w-full max-w-2xl space-y-4 px-4 py-5 pb-safe">
         {courses.length === 0 ? (

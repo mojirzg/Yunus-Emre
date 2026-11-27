@@ -126,6 +126,29 @@ async function main() {
     );
   }
 
+  if (serviceRoleKey.startsWith("sb_publishable_")) {
+    throw new Error(
+      "SUPABASE_SERVICE_ROLE_KEY is set to a publishable (anon) key. Use the Secret key (sb_secret_...) or legacy service_role key from Supabase Project Settings -> API Keys."
+    );
+  }
+
+  if (serviceRoleKey.startsWith("eyJ")) {
+    try {
+      const payload = JSON.parse(
+        Buffer.from(serviceRoleKey.split(".")[1], "base64url").toString("utf8")
+      ) as { role?: string };
+      if (payload.role && payload.role !== "service_role") {
+        throw new Error(
+          `SUPABASE_SERVICE_ROLE_KEY has JWT role "${payload.role}" instead of "service_role". Copy the Secret key (sb_secret_...) or Legacy service_role key from Supabase Project Settings -> API Keys.`
+        );
+      }
+    } catch (err) {
+      if (err instanceof Error && err.message.includes("SUPABASE_SERVICE_ROLE_KEY")) {
+        throw err;
+      }
+    }
+  }
+
   const supabase = createClient(supabaseUrl, serviceRoleKey, {
     auth: { persistSession: false, autoRefreshToken: false },
   });

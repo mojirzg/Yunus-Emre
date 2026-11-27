@@ -36,23 +36,29 @@ export async function updateSession(request: NextRequest) {
     },
   });
 
+  const { pathname } = request.nextUrl;
+  if (pathname.startsWith("/auth/")) {
+    return supabaseResponse;
+  }
+
   const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const { pathname } = request.nextUrl;
   const isAuthPage = pathname === "/login" || pathname === "/signup";
   const isProtectedPage = pathname.startsWith("/courses");
 
   if (!user && isProtectedPage) {
     const redirectUrl = request.nextUrl.clone();
     redirectUrl.pathname = "/login";
+    redirectUrl.search = "";
     return NextResponse.redirect(redirectUrl);
   }
 
   if (user && (isAuthPage || pathname === "/")) {
     const redirectUrl = request.nextUrl.clone();
     redirectUrl.pathname = "/courses";
+    redirectUrl.search = "";
     return NextResponse.redirect(redirectUrl);
   }
 

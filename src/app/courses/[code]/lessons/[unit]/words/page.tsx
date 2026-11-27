@@ -3,6 +3,7 @@ import { AppHeader } from "@/components/AppHeader";
 import { WordListClient } from "@/components/WordListClient";
 import { createClient } from "@/lib/supabase/server";
 import { getLessonStudyData } from "@/lib/supabase/queries";
+import { getHeaderUser } from "@/lib/supabase/user-profile";
 
 export const dynamic = "force-dynamic";
 
@@ -42,6 +43,7 @@ export default async function LessonWordsPage({
         subtitle={`${data.course.code} · Ordered by spoken frequency`}
         backHref={`/courses/${slug}`}
         backLabel="Back to course"
+        user={getHeaderUser(user)}
       />
       <WordListClient
         userId={user.id}
