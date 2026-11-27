@@ -9,12 +9,14 @@ export const dynamic = "force-dynamic";
 
 interface CourseWordsPageProps {
   params: Promise<{ code: string }>;
+  searchParams: Promise<{ verbs?: string }>;
 }
 
 export default async function CourseWordsPage({
   params,
+  searchParams,
 }: CourseWordsPageProps) {
-  const { code } = await params;
+  const [{ code }, { verbs }] = await Promise.all([params, searchParams]);
   const supabase = await createClient();
   const {
     data: { user },
@@ -44,6 +46,7 @@ export default async function CourseWordsPage({
         userId={user.id}
         initialWords={data.words}
         studyHref={`/courses/${slug}/study`}
+        initialVerbsOnly={verbs === "1"}
       />
     </div>
   );

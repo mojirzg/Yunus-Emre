@@ -6,6 +6,7 @@ interface TranslationItem {
   english: string;
   persian: string;
   frequency_rank: number;
+  type?: string;
 }
 
 interface CourseOutput {
@@ -27,6 +28,7 @@ interface CourseOutput {
     english: string;
     persian: string;
     frequency_rank: number;
+    type?: string;
   }[];
 }
 
@@ -52,6 +54,7 @@ function main() {
         english: item.english.normalize("NFC").trim(),
         persian: item.persian.normalize("NFC").trim(),
         frequency_rank: Math.max(1, Math.round(item.frequency_rank)),
+        ...(item.type ? { type: item.type } : {}),
       });
     }
   }
@@ -104,6 +107,7 @@ function main() {
         english: tr.english,
         persian: tr.persian,
         frequency_rank: tr.frequency_rank,
+        ...(tr.type ? { type: tr.type } : {}),
       });
     }
   }

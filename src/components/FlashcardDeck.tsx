@@ -16,6 +16,12 @@ import {
   Volume2,
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
+import {
+  countVerbs,
+  filterByVerbs,
+  syncVerbsQueryParam,
+  withVerbsParam,
+} from "@/lib/word-filters";
 import type { ProgressStatus, StudyWord } from "@/lib/supabase/types";
 
 type FilterMode = "unlearned" | "all" | "learned";
@@ -26,6 +32,7 @@ interface FlashcardDeckProps {
   initialWords: StudyWord[];
   wordsListHref: string;
   backToCourseHref: string;
+  initialVerbsOnly?: boolean;
 }
 
 const SWIPE_THRESHOLD = 72;
@@ -48,9 +55,11 @@ export function FlashcardDeck({
   initialWords,
   wordsListHref,
   backToCourseHref,
+  initialVerbsOnly = false,
 }: FlashcardDeckProps) {
   const [words, setWords] = useState<StudyWord[]>(initialWords);
   const [filter, setFilter] = useState<FilterMode>("unlearned");
+  const [verbsOnly, setVerbsOnly] = useState(initialVerbsOnly);
   const [mode, setMode] = useState<StudyMode>("manual");
   const [paused, setPaused] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -70,17 +79,27 @@ export function FlashcardDeck({
     }
   }, []);
 
+  const verbCount = useMemo(() => countVerbs(words), [words]);
+  const scopedWords = useMemo(
+    () => filterByVerbs(words, verbsOnly),
+    [words, verbsOnly]
+  );
+
   const counts = useMemo(() => {
     let learned = 0;
-    for (const w of words) if (w.status === "learned") learned += 1;
-    return { all: words.length, learned, unlearned: words.length - learned };
-  }, [words]);
+    for (const w of scopedWords) if (w.status === "learned") learned += 1;
+    return {
+      all: scopedWords.length,
+      learned,
+      unlearned: scopedWords.length - learned,
+    };
+  }, [scopedWords]);
 
   const deck = useMemo(() => {
-    if (filter === "unlearned") return words.filter((w) => w.status === "unlearned");
-    if (filter === "learned") return words.filter((w) => w.status === "learned");
-    return words;
-  }, [words, filter]);
+    if (filter === "unlearned") return scopedWords.filter((w) => w.status === "unlearned");
+    if (filter === "learned") return scopedWords.filter((w) => w.status === "learned");
+    return scopedWords;
+  }, [scopedWords, filter]);
 
   const safeIndex = deck.length === 0 ? 0 : Math.min(currentIndex, deck.length - 1);
   const currentWord = deck[safeIndex] ?? null;
@@ -96,6 +115,14 @@ export function FlashcardDeck({
     setFilter(next);
     setCurrentIndex(0);
     resetCard();
+  }
+
+  function handleVerbsToggle() {
+    const next = !verbsOnly;
+    setVerbsOnly(next);
+    setCurrentIndex(0);
+    resetCard();
+    syncVerbsQueryParam(next);
   }
 
   function handleModeChange(next: StudyMode) {
@@ -315,12 +342,12 @@ export function FlashcardDeck({
           ))}
         </div>
 
-        {/* Study mode + list view */}
-        <div className="flex items-center gap-2">
+        {/* Study mode + Verbs toggle + list view */}
+        <div className="flex flex-wrap items-center gap-2">
           <div
             role="radiogroup"
             aria-label="Study mode"
-            className="grid flex-1 grid-cols-3 gap-1 rounded-2xl border border-stone-200 bg-white p-1"
+            className="grid min-w-[14rem] flex-1 grid-cols-3 gap-1 rounded-2xl border border-stone-200 bg-white p-1"
           >
             {MODES.map((m) => (
               <button
@@ -338,8 +365,20 @@ export function FlashcardDeck({
               </button>
             ))}
           </div>
+          <button
+            type="button"
+            aria-pressed={verbsOnly}
+            onClick={handleVerbsToggle}
+            className={`inline-flex h-11 shrink-0 items-center gap-1.5 rounded-2xl border px-3 text-xs font-semibold transition sm:text-sm ${
+              verbsOnly
+                ? "border-teal-700 bg-teal-50 text-teal-800 shadow-xs"
+                : "border-stone-200 bg-white text-stone-700 hover:bg-stone-100"
+            }`}
+          >
+            Verbs only ({verbCount})
+          </button>
           <Link
-            href={wordsListHref}
+            href={withVerbsParam(wordsListHref, verbsOnly)}
             className="inline-flex h-11 shrink-0 items-center gap-1.5 rounded-2xl border border-stone-200 bg-white px-3 text-xs font-semibold text-stone-700 hover:bg-stone-100 sm:text-sm"
           >
             <List className="h-4 w-4" aria-hidden="true" />
@@ -383,6 +422,9 @@ export function FlashcardDeck({
                 <div className="flex items-center gap-2">
                   <span className="rounded-full bg-stone-100 px-2.5 py-1 text-xs font-semibold text-stone-600">
                     #{currentWord.frequency_rank}
+                  </span>
+                  <span className="rounded-full bg-stone-100 px-2.5 py-1 text-xs font-semibold text-stone-500">
+                    {currentWord.type}
                   </span>
                   {currentWord.status === "learned" && (
                     <span className="inline-flex items-center gap-1 rounded-full bg-teal-50 px-2.5 py-1 text-xs font-semibold text-teal-700">
@@ -490,10 +532,10 @@ export function FlashcardDeck({
             </div>
             <h2 className="text-lg font-bold text-stone-900">
               {filter === "unlearned"
-                ? "All words in this deck are learned!"
+                ? `All ${verbsOnly ? "verbs" : "words"} in this deck are learned!`
                 : filter === "learned"
-                  ? "No learned words yet"
-                  : "No words available"}
+                  ? `No learned ${verbsOnly ? "verbs" : "words"} yet`
+                  : `No ${verbsOnly ? "verbs" : "words"} available`}
             </h2>
             <div className="mt-5 flex flex-wrap justify-center gap-2.5">
               {filter !== "all" && counts.all > 0 && (
@@ -504,6 +546,15 @@ export function FlashcardDeck({
                 >
                   <RotateCcw className="h-4 w-4" aria-hidden="true" />
                   Review all ({counts.all})
+                </button>
+              )}
+              {verbsOnly && (
+                <button
+                  type="button"
+                  onClick={handleVerbsToggle}
+                  className="inline-flex items-center rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-700 hover:bg-stone-100"
+                >
+                  Show all word types
                 </button>
               )}
               <Link

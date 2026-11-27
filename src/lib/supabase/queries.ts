@@ -239,7 +239,7 @@ async function loadStudyWordsForLessonIds(
           (from, to) =>
             supabase
               .from("lesson_words")
-              .select("word_id, words(id, turkish, english, persian, frequency_rank)")
+              .select("word_id, words(id, turkish, english, persian, frequency_rank, type)")
               .in("lesson_id", chunk)
               .range(from, to)
         )

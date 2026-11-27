@@ -4,6 +4,12 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Check, Circle, Layers, Search } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
+import {
+  countVerbs,
+  filterByVerbs,
+  syncVerbsQueryParam,
+  withVerbsParam,
+} from "@/lib/word-filters";
 import type { ProgressStatus, StudyWord } from "@/lib/supabase/types";
 
 type ListTab = "all" | "unlearned" | "learned";
@@ -12,33 +18,42 @@ interface WordListClientProps {
   userId: string;
   initialWords: StudyWord[];
   studyHref?: string;
+  initialVerbsOnly?: boolean;
 }
 
 export function WordListClient({
   userId,
   initialWords,
   studyHref,
+  initialVerbsOnly = false,
 }: WordListClientProps) {
   const [words, setWords] = useState<StudyWord[]>(initialWords);
   const [tab, setTab] = useState<ListTab>("all");
+  const [verbsOnly, setVerbsOnly] = useState(initialVerbsOnly);
   const [query, setQuery] = useState("");
   const [syncError, setSyncError] = useState<string | null>(null);
 
+  const verbCount = useMemo(() => countVerbs(words), [words]);
+  const scopedWords = useMemo(
+    () => filterByVerbs(words, verbsOnly),
+    [words, verbsOnly]
+  );
+
   const counts = useMemo(() => {
     let learned = 0;
-    for (const w of words) {
+    for (const w of scopedWords) {
       if (w.status === "learned") learned += 1;
     }
     return {
-      all: words.length,
-      unlearned: words.length - learned,
+      all: scopedWords.length,
+      unlearned: scopedWords.length - learned,
       learned,
     };
-  }, [words]);
+  }, [scopedWords]);
 
   const visibleWords = useMemo(() => {
     const q = query.trim().toLocaleLowerCase("tr-TR");
-    return words.filter((w) => {
+    return scopedWords.filter((w) => {
       if (tab !== "all" && w.status !== tab) return false;
       if (!q) return true;
       return (
@@ -47,7 +62,13 @@ export function WordListClient({
         w.persian.includes(query.trim())
       );
     });
-  }, [words, tab, query]);
+  }, [scopedWords, tab, query]);
+
+  function handleVerbsToggle() {
+    const next = !verbsOnly;
+    setVerbsOnly(next);
+    syncVerbsQueryParam(next);
+  }
 
   async function toggleWordStatus(word: StudyWord) {
     const nextStatus: ProgressStatus =
@@ -141,9 +162,9 @@ export function WordListClient({
         </button>
       </div>
 
-      {/* Search + Study one-by-one shortcut */}
-      <div className="flex items-center gap-2">
-        <div className="relative flex-1">
+      {/* Search + Verbs toggle + Study one-by-one shortcut */}
+      <div className="flex flex-wrap items-center gap-2">
+        <div className="relative min-w-[12rem] flex-1">
           <Search
             className="pointer-events-none absolute top-1/2 left-3.5 h-4 w-4 -translate-y-1/2 text-stone-400"
             aria-hidden="true"
@@ -152,15 +173,31 @@ export function WordListClient({
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Filter Turkish, English, or Persian..."
+            placeholder={
+              verbsOnly
+                ? "Filter verbs (Turkish, English, Persian)..."
+                : "Filter Turkish, English, or Persian..."
+            }
             aria-label="Filter vocabulary list"
             enterKeyHint="search"
             className="w-full rounded-2xl border border-stone-200 bg-white py-2.5 pr-4 pl-10 text-sm text-stone-900 outline-none transition focus:border-teal-700 focus:ring-2 focus:ring-teal-700/20"
           />
         </div>
+        <button
+          type="button"
+          aria-pressed={verbsOnly}
+          onClick={handleVerbsToggle}
+          className={`inline-flex h-11 shrink-0 items-center gap-1.5 rounded-2xl border px-3.5 text-xs font-semibold transition sm:text-sm ${
+            verbsOnly
+              ? "border-teal-700 bg-teal-50 text-teal-800 shadow-xs"
+              : "border-stone-200 bg-white text-stone-700 hover:bg-stone-100"
+          }`}
+        >
+          Verbs only ({verbCount})
+        </button>
         {studyHref && (
           <Link
-            href={studyHref}
+            href={withVerbsParam(studyHref, verbsOnly)}
             className="inline-flex h-11 shrink-0 items-center gap-1.5 rounded-2xl bg-teal-700 px-3.5 text-xs font-semibold text-white shadow-xs transition hover:bg-teal-800 sm:text-sm"
           >
             <Layers className="h-4 w-4" aria-hidden="true" />
@@ -182,12 +219,12 @@ export function WordListClient({
       {visibleWords.length === 0 ? (
         <div className="rounded-2xl border border-stone-200 bg-white p-8 text-center text-sm text-stone-600">
           {query.trim()
-            ? "No words match your search in this tab."
+            ? `No ${verbsOnly ? "verbs" : "words"} match your search in this tab.`
             : tab === "unlearned"
-              ? "No unlearned words remaining here!"
+              ? `No unlearned ${verbsOnly ? "verbs" : "words"} remaining here!`
               : tab === "learned"
-                ? "No words marked as learned yet."
-                : "No words available."}
+                ? `No ${verbsOnly ? "verbs" : "words"} marked as learned yet.`
+                : `No ${verbsOnly ? "verbs" : "words"} available.`}
         </div>
       ) : (
         <ul className="space-y-2.5 pb-6">
@@ -203,9 +240,14 @@ export function WordListClient({
                     <p lang="tr" className="text-base font-bold text-stone-900">
                       {word.turkish}
                     </p>
-                    <span className="text-[11px] font-medium text-stone-400">
-                      #{word.frequency_rank}
-                    </span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-[11px] font-medium text-stone-400">
+                        #{word.frequency_rank}
+                      </span>
+                      <span className="rounded-md bg-stone-100 px-1.5 py-0.5 text-[10px] font-semibold text-stone-500">
+                        {word.type}
+                      </span>
+                    </div>
                   </div>
 
                   <p className="text-sm text-stone-700">{word.english}</p>

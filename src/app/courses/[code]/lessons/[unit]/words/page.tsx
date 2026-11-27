@@ -9,12 +9,14 @@ export const dynamic = "force-dynamic";
 
 interface LessonWordsPageProps {
   params: Promise<{ code: string; unit: string }>;
+  searchParams: Promise<{ verbs?: string }>;
 }
 
 export default async function LessonWordsPage({
   params,
+  searchParams,
 }: LessonWordsPageProps) {
-  const { code, unit } = await params;
+  const [{ code, unit }, { verbs }] = await Promise.all([params, searchParams]);
   const unitNumber = Number.parseInt(unit, 10);
   if (!Number.isFinite(unitNumber) || unitNumber < 1) {
     notFound();
@@ -49,6 +51,7 @@ export default async function LessonWordsPage({
         userId={user.id}
         initialWords={data.words}
         studyHref={`/courses/${slug}/lessons/${unitNumber}/study`}
+        initialVerbsOnly={verbs === "1"}
       />
     </div>
   );

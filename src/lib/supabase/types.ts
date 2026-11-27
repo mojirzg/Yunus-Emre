@@ -1,5 +1,21 @@
 export type ProgressStatus = "unlearned" | "learned";
 
+export const WORD_TYPES = [
+  "verb",
+  "noun",
+  "adjective",
+  "adverb",
+  "pronoun",
+  "conjunction",
+  "preposition",
+  "interjection",
+  "number",
+  "phrase",
+  "other",
+] as const;
+
+export type WordType = (typeof WORD_TYPES)[number];
+
 export interface Course {
   id: string;
   code: string;
@@ -23,6 +39,7 @@ export interface Word {
   english: string;
   persian: string;
   frequency_rank: number;
+  type: WordType;
 }
 
 export interface UserWordProgress {

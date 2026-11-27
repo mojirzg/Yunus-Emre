@@ -3,8 +3,12 @@ import path from "node:path";
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 
+import { WORD_TYPES, type WordType } from "../src/lib/supabase/types";
+
 dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 dotenv.config();
+
+const VALID_WORD_TYPES = new Set<string>(WORD_TYPES);
 
 interface CourseFile {
   course: {
@@ -25,6 +29,7 @@ interface CourseFile {
     english: string;
     persian: string;
     frequency_rank: number;
+    type?: WordType;
   }[];
 }
 
@@ -68,6 +73,11 @@ function validateCourseFile(fileName: string, data: CourseFile) {
         `${fileName} entry #${i}: invalid frequency_rank ${e.frequency_rank}`
       );
     }
+    if (e.type !== undefined && !VALID_WORD_TYPES.has(e.type)) {
+      throw new Error(
+        `${fileName} entry #${i}: invalid type "${e.type}" (${e.turkish})`
+      );
+    }
   }
 }
 
@@ -97,15 +107,23 @@ async function main() {
 
   if (isDryRun) {
     for (const { fileName, data } of parsedCourses) {
-      const uniqueWords = new Set(
-        data.entries.map((e) => e.turkish.normalize("NFC").trim())
-      );
+      const uniqueTypes = new Map<string, WordType>();
+      for (const e of data.entries) {
+        const key = e.turkish.normalize("NFC").trim();
+        if (!uniqueTypes.has(key)) {
+          uniqueTypes.set(key, e.type ?? "other");
+        }
+      }
+      const typeCounts = new Map<WordType, number>();
+      for (const t of uniqueTypes.values()) {
+        typeCounts.set(t, (typeCounts.get(t) ?? 0) + 1);
+      }
       const unitCounts = new Map<number, number>();
       for (const e of data.entries) {
         unitCounts.set(e.unit_number, (unitCounts.get(e.unit_number) ?? 0) + 1);
       }
       console.log(
-        `[DRY RUN] ${fileName}: course=${data.course.code} (${data.course.title}), lessons=${data.lessons.length}, entries=${data.entries.length}, uniqueWords=${uniqueWords.size}`
+        `[DRY RUN] ${fileName}: course=${data.course.code} (${data.course.title}), lessons=${data.lessons.length}, entries=${data.entries.length}, uniqueWords=${uniqueTypes.size}, verbs=${typeCounts.get("verb") ?? 0}`
       );
       for (const lesson of data.lessons) {
         console.log(
@@ -206,6 +224,7 @@ async function main() {
         english: string;
         persian: string;
         frequency_rank: number;
+        type: WordType;
       }
     >();
 
@@ -221,6 +240,7 @@ async function main() {
           english: entry.english.normalize("NFC").trim(),
           persian: entry.persian.normalize("NFC").trim(),
           frequency_rank: entry.frequency_rank,
+          type: entry.type ?? "other",
         });
       }
     }
